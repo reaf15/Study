@@ -1,0 +1,49 @@
+body {
+  margin: 0px;
+  font-family: Libre Baskerville;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  border:1px solid red;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #626970;
+  padding:8px 12px;
+}
+
+.navbar_logo {
+  font-size: 28px;
+}
+
+.navbar_menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.navbar_menu li {
+  padding: 8px 12px;
+}
+
+.navbar_menu li:hover {
+  background-color: rgb(245, 236, 224);
+  border-radius: 4px;
+}
+
+.navbar_icons {
+  display: flex;
+  list-style: none;
+  color: white;
+}
+
+.navbar_icons li {
+  padding: 8px 12px;
+}
