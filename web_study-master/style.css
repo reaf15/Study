@@ -1,0 +1,14 @@
+body.black{
+  background-color: black;
+  color:white;
+}
+body.white{
+  background-color: white;
+  color:black;
+}
+.jumbotron{
+  margin-top:20px;
+}
+body{
+  font-family: 'Lobster', cursive !important;
+}
